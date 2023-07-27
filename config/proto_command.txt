@@ -1,4 +1,4 @@
 protoc --proto_path=proto_dir --go_out=output_dir --go-grpc_out=output_dir --go-grpc_opt=require_unimplemented_servers=false grpc.proto
 
 
-protoc --proto_path=/Users/hassanelabdallah/backend/labs/microservices/auth_service/grpc --go_out=/Users/hassanelabdallah/backend/labs/microservices/auth_service/grpc --go-grpc_out=/Users/hassanelabdallah/backend/labs/microservices/auth_service/grpc --go-grpc_opt=require_unimplemented_servers=false /Users/hassanelabdallah/backend/labs/microservices/auth_service/grpc/*.proto
+protoc --proto_path= --go_out= --go-grpc_out= --go-grpc_opt=require_unimplemented_servers=false /*.proto
