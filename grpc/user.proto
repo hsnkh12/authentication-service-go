@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+
+option go_package = "./pb";
+
+message User {
+    string userId = 1;
+    string username = 2;
+    string email = 3;
+}
+
+
+message UserRequest {
+    string username = 1;
+}
+  
+message UserResponse {
+    User user = 1;
+}
+
+
+service auth_service{
+    rpc GetUser(UserRequest) returns (UserResponse) {}
+}
+
+
